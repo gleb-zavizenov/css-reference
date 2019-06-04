@@ -1,3 +1,61 @@
-.hidden{
+/* .hidden{
   display:none;
+}
+
+.box{
+  width:50px;
+  height:50px;
+  background-color: red;
+  margin:40px;
+  padding:10px;
+  border: 3px solid black;
+
+  transition: all 2.0s ease;
+}
+
+.box:hover{
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+
+  transform: rotate(1turn);
+  border-radius: 40px;
+  background-color: yellow;
+  color:#000000;
+}
+
+.box span{
+  color:#ffffff;
+}
+
+.box:hover span{
+  transition: 2.0s;
+  color:#000000;
+} */
+
+/* Button styles */
+body{
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  padding:20px 0 0 20px;
+}
+
+.button{
+  margin-top:200px;
+  text-align: center;
+  padding:10px;
+  text-decoration: none;
+  color:#ffffff;
+  cursor:pointer;
+  border-radius:5px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+
+  background: #8dd3ef; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #8dd3ef 0%, #2cafe3 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #8dd3ef 0%,#2cafe3 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #8dd3ef 0%,#2cafe3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8dd3ef', endColorstr='#2cafe3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 }
