@@ -35,7 +35,7 @@
 } */
 
 /* Button styles */
-body{
+/* body{
   font-family: Helvetica,Arial,sans-serif;
   font-size: 14px;
   padding:20px 0 0 20px;
@@ -52,10 +52,60 @@ body{
   box-shadow: 0 1px 2px rgba(0,0,0,0.5);
   text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 
-  background: #8dd3ef; /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover, #8dd3ef 0%, #2cafe3 100%); /* FF3.6-15 */
-  background: -webkit-radial-gradient(center, ellipse cover, #8dd3ef 0%,#2cafe3 100%); /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at center, #8dd3ef 0%,#2cafe3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8dd3ef', endColorstr='#2cafe3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: #8dd3ef;
+  background: -moz-radial-gradient(center, ellipse cover, #8dd3ef 0%, #2cafe3 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #8dd3ef 0%,#2cafe3 100%);
+  background: radial-gradient(ellipse at center, #8dd3ef 0%,#2cafe3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8dd3ef', endColorstr='#2cafe3',GradientType=1 );
+}
 
+.button:active{
+  position:relative;
+  top:15px;
+  color: red;
+  transition: all 2.0s ease;
+} */
+
+main{
+  margin:0 auto;
+  width:960px;
+}
+
+#main-nav {
+  margin:0;
+  padding:0;
+  font-family: "Lucida Sans Univode","Lucida Grande",sans-serif;
+  height:60px;
+
+  background: rgb(99,171,226);
+}
+
+#main-nav ul{
+  list-sytle-type:none;
+}
+
+#main-nav ul li{
+  float: left;
+}
+
+#main-nav ul li a{
+  display:block;
+  color:white;
+  font-size:1em;
+  text-decoration: none;
+  margin: 20px 10px 10px 0;
+  padding:20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+
+  transition: all 0.5s ease;
+}
+
+#main-nav ul li a:hover{
+  color:#e93cec;
+  background-color:white;
 }
